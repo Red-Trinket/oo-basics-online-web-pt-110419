@@ -11,5 +11,11 @@ class Shoe
   
   attr_accessor :condition 
   
+  attr_accessor :size 
+  
+  def cobble 
+    puts "Your shoe is as good as new!"
+    Show.condition = "new"
+  end 
   
 end 
