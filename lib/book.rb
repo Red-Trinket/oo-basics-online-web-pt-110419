@@ -8,4 +8,6 @@ class Book
     @title 
   end 
   
+  attr_accessor :author 
+  
 end 
